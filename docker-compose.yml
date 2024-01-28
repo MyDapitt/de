@@ -1,8 +1,8 @@
-version: '3.8'
+version: '3.9'
 
 services:
   wings:
-    image: ghcr.io/pterodactyl/wings:v1.6.1
+    image: ghcr.io/pterodactyl/wings:develop
     restart: always
     networks:
       - wings0
