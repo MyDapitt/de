@@ -1,4 +1,4 @@
-version: '3.3'
+version: '3.9'
 
 services:
   wings:
@@ -31,7 +31,6 @@ services:
 
 networks:
   wings0:
-    name: wings0
     driver: bridge
     ipam:
       config:
